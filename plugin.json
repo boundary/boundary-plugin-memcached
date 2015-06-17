@@ -27,13 +27,15 @@
 			"name" : "port",
 			"description" : "The MEMCACHED port.",
 			"type" : "integer",
-			"default" : 11211
+			"default" : 11211,
+			"required" : true
 		},
 		{
 			"title" : "Host",
 			"name" : "host",
 			"description" : "The MEMCACHED hostname.",
-			"type" : "string"
+			"type" : "string",
+			"required" : true
 		},
 		{
       		"title": "Poll Interval (msec)",
