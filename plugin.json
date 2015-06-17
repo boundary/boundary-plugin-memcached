@@ -34,6 +34,14 @@
 			"name" : "host",
 			"description" : "The MEMCACHED hostname.",
 			"type" : "string"
-		}
+		},
+		{
+      		"title": "Poll Interval (msec)",
+      		"name": "pollInterval",
+      		"description": "How often (in milliseconds) to poll for metrics",
+      		"type": "integer",
+      		"default": 2000,
+      		"required": false
+    	} 
 	]
 }
