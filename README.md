@@ -1,13 +1,21 @@
-Boundary Memcached Plugin
--------------------------
+# Boundary Memcached Plugin
 
 Collects metrics from a memcached instance. See video [walkthrough](https://help.boundary.com/hc/articles/201816101).
 
 ### Prerequisites
 
+#### Supported OS
+
 |     OS    | Linux | Windows | SmartOS | OS X |
 |:----------|:-----:|:-------:|:-------:|:----:|
-| Supported |   v   |    v    |    v    |  v   |
+| Supported |   v   |    v    |    -    |  v   |
+
+#### Boundary Meter versions v4.2 or later
+
+- To install new meter go to Settings->Installation or [see instructons](https://help.boundary.com/hc/en-us/sections/200634331-Installation).
+- To upgrade the meter to the latest version - [see instructons](https://help.boundary.com/hc/en-us/articles/201573102-Upgrading-the-Boundary-Meter).
+
+#### Boundary Meter versions earlier than v4.2
 
 |  Runtime | node.js | Python | Java |
 |:---------|:-------:|:------:|:----:|
@@ -16,17 +24,20 @@ Collects metrics from a memcached instance. See video [walkthrough](https://help
 - [How to install node.js?](https://help.boundary.com/hc/articles/202360701)
 
 ### Plugin Setup
+
 None
 
-#### Plugin Configuration Fields
+### Plugin Configuration Fields
 
 |Field Name|Description                                                |
 |:---------|:----------------------------------------------------------|
 |Source    |The source to display in the legend for the MEMCACHED data.|
 |Port      |The MEMCACHED port.                                        |
 |Host      |The MEMCACHED hostname.                                    |
+|Poll Interval (msec)| How often to poll for metrics                   |
 
 ### Metrics Collected
+
 |Metric Name          |Description                       |
 |:--------------------|:---------------------------------|
 |Memcached Allocated  |Percent of available memory used  |
@@ -37,3 +48,11 @@ None
 |Memcached Requests   |Number of requests                |
 |Memcached Network In |Number of bytes read from network |
 |Memcached Network Out|Number of bytes written to network|
+
+### Dashboards
+
+- Memcached
+
+### References
+
+None
