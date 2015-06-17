@@ -1,0 +1,6 @@
+{
+	"pollInterval" : 2000,
+	"source" : "",
+	"host" : "localhost",
+	"port" : 11211
+}
