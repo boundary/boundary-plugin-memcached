@@ -1,4 +1,9 @@
 {
+	"name" : "Boundary Memcached Plugin",
+  	"version" : "0.9.0",
+  	"meterVersionRequired" : "4.2.0-611",
+  	"os" : [ "Linux", "Windows", "SmartOS", "OS X" ],
+  	"tags" : "memcached", 
 	"description" : "Displays important MEMCACHED metrics",
 	"icon" : "icon.png",
 	"command_lua" : "boundary-meter init.lua",
@@ -16,13 +21,14 @@
 		"MEMCACHED_NETWORK_OUT",
 		"MEMCACHED_REQUESTS"
 	],
-	"dashboards" : [{ "name" : "memcached", "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-MEMCACHED_ALLOCATED=0-0-1-1&d-g-MEMCACHED_CONNECTIONS=1-0-1-1&d-g-MEMCACHED_HITS=0-1-1-1-t&d-g-MEMCACHED_MISSES=0-1-1-1-b&d-g-MEMCACHED_ITEMS=1-1-1-1&d-g-MEMCACHED_REQUESTS=2-0-1-1&d-g-MEMCACHED_NETWORK_IN=2-1-1-1-t&d-g-MEMCACHED_NETWORK_OUT=2-1-1-1-b"}],
+	"dashboards" : [{ "name" : "Memcached", "layout" : "d-w=3&d-h=2&d-pad=5&d-bg=none&d-g-MEMCACHED_ALLOCATED=0-0-1-1&d-g-MEMCACHED_CONNECTIONS=1-0-1-1&d-g-MEMCACHED_HITS=0-1-1-1-t&d-g-MEMCACHED_MISSES=0-1-1-1-b&d-g-MEMCACHED_ITEMS=1-1-1-1&d-g-MEMCACHED_REQUESTS=2-0-1-1&d-g-MEMCACHED_NETWORK_IN=2-1-1-1-t&d-g-MEMCACHED_NETWORK_OUT=2-1-1-1-b"}],
 	"paramSchema" : [
 		{
 			"title" : "Source",
 			"name" : "source",
 			"description" : "The source to display in the legend for the MEMCACHED data.",
-			"type" : "string"
+			"type" : "string",
+			"required" : false
 		},
 		{
 			"title" : "Port",
