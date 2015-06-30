@@ -12,8 +12,8 @@ Collects metrics from a memcached instance. See video [walkthrough](https://help
 
 #### Boundary Meter versions v4.2 or later
 
-- To install new meter go to Settings->Installation or [see instructons](https://help.boundary.com/hc/en-us/sections/200634331-Installation).
-- To upgrade the meter to the latest version - [see instructons](https://help.boundary.com/hc/en-us/articles/201573102-Upgrading-the-Boundary-Meter).
+- To install new meter go to Settings->Installation or [see instructions](https://help.boundary.com/hc/en-us/sections/200634331-Installation).
+- To upgrade the meter to the latest version - [see instructions](https://help.boundary.com/hc/en-us/articles/201573102-Upgrading-the-Boundary-Meter).
 
 #### Boundary Meter versions earlier than v4.2
 
@@ -34,7 +34,7 @@ None
 |Source    |The source to display in the legend for the MEMCACHED data.|
 |Port      |The MEMCACHED port.                                        |
 |Host      |The MEMCACHED hostname.                                    |
-|Poll Interval (msec)| How often to poll for metrics                   |
+|Poll Interval How often (in milliseconds) to poll for metrics |
 
 ### Metrics Collected
 
