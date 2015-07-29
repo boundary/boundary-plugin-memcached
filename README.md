@@ -31,10 +31,10 @@ None
 
 |Field Name|Description                                                |
 |:---------|:----------------------------------------------------------|
-|Source    |The source to display in the legend for the MEMCACHED data.|
-|Port      |The MEMCACHED port.                                        |
-|Host      |The MEMCACHED hostname.                                    |
-|Poll Interval How often (in milliseconds) to poll for metrics |
+|Host      |The Memcached hostname.                                    |
+|Port      |The Memcached port.                                        |
+|Poll Interval | How often (in milliseconds) to poll for metrics |
+|Source    |The source to display in the legend for the Memcached data.|
 
 ### Metrics Collected
 
