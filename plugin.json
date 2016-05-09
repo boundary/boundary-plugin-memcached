@@ -1,5 +1,5 @@
 {
-  "name" : "Boundary Memcached Plugin",
+  "name" : "TrueSight Pulse Memcached Plugin",
   "version" : "0.9.1",
   "meterVersionRequired" : "4.2.0-611",
   "unsupportedPlatforms" : [],
