@@ -1,4 +1,4 @@
-# Boundary Memcached Plugin
+# TrueSight Pulse Memcached Plugin
 
 Collects metrics from a memcached instance. See video [walkthrough](https://help.boundary.com/hc/articles/201816101).
 
@@ -10,12 +10,12 @@ Collects metrics from a memcached instance. See video [walkthrough](https://help
 |:----------|:-----:|:-------:|:-------:|:----:|
 | Supported |   v   |    v    |    -    |  v   |
 
-#### Boundary Meter versions v4.2 or later
+#### TrueSight Pulse Meter versions v4.2 or later
 
 - To install new meter go to Settings->Installation or [see instructions](https://help.boundary.com/hc/en-us/sections/200634331-Installation).
 - To upgrade the meter to the latest version - [see instructions](https://help.boundary.com/hc/en-us/articles/201573102-Upgrading-the-Boundary-Meter).
 
-#### Boundary Meter versions earlier than v4.2
+#### TrueSight Pulse Meter versions earlier than v4.2
 
 |  Runtime | node.js | Python | Java |
 |:---------|:-------:|:------:|:----:|
